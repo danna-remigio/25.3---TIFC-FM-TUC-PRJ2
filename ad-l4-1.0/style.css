@@ -2,4 +2,82 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+
+
+/* ===== ESTILOS GENERALES ===== */
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #df207f;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1dc0c3;
+    padding: 12px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+/* ===== CONTENIDO ===== */
+main {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: white;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 25px;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* ===== IMÁGENES ===== */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #1dc0c3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
